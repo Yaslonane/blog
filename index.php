@@ -6,6 +6,8 @@ spl_autoload_extensions("_class.php");
 spl_autoload_register();
 
 /*
+ *
+ *
 require_once "lib/database_class.php";
 require_once "lib/frontpagecontent_class.php";
 require_once "lib/sectioncontent_class.php";
@@ -15,7 +17,10 @@ require_once "lib/messagecontent_class.php";
 require_once "lib/activation_class.php";
 require_once "lib/changepasscontent_class.php";
 require_once "lib/changepassword_class.php";
-require_once "lib/searchcontent_class.php";*/
+require_once "lib/searchcontent_class.php";
+*
+*
+*/
 
 $db = new DataBase();
 $view = $_GET["view"];
